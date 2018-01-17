@@ -15,10 +15,18 @@ body {
 	width: 90%; 
 	margin: 0 auto; padding-top: 50%;
 	border: 1px solid #ccc;
+	/*background: linear-gradient(#68c87a,#0d8bcd);*/
+	background-image: url(media/louvre.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% bottom;
+	background-size: cover;
 }
 
 #container p {
-	margin: 0; padding: 20px;
+	margin: 0; 
+	padding: 20px;
+	color: #fff;
+	background-color: rgba(0,0,0,0.6);
 }
 
 
